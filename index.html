@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Задание 2</title>
+       <link rel="stylesheet" href="style.css">
+    </head>
+    <body >
+
+      <div id="shapka">
+          <div class="struct">
+      			<div id="igh">
+      				<img id="logo" src="https://pngicon.ru/file/uploads/Twitch-128x128.png"  alt="">
+      				<h1 id="txt">Twitch</h1>
+      			</div>
+            </div>
+      		</div>
+
+
+<div class="struct">
+
+  <div class="struct">
+    <nav class="one">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#tbl">Table</a></li>
+        <li><a href="#forum">About</a></li>
+        <li><a href="#site">Contacts</a></li>
+      </ul>
+    </nav>
+  </div>
+
+
+  
+        <h2 id="head1">Страница с маркированным списком гиперссылок</h2>
+            <ul>
+                <li><a href="http://www.aeroflot.ru/">Абсолютная гиперссылка на главную страницу сайта</a></li>
+                <li><a href="https://www.aeroflot.ru/">Абсолютная гиперссылка на главную страницу сайта в протоколе https</a></li>
+                <li><a href="ftp://aeroflot.ru/files/file.html">Ссылка на файл на сервере FTP без авторизации</a></li>
+                <li><a href="ftp://user:123@aeroflot.ru/files/file.html">Ссылка на файл на сервере FTP с авторизацией</a></li>
+                <li><a href="http://www.aeroflot.ru/ru-ru/online_services#anchor">Ссылка на фрагмент страницы некоторого сайта</a></li>
+                <li><a href="#top">Ссылка на фрагмент текущей страницы</a></li>
+                <li><a href="http://www.aeroflot.ru/ru-ru/afl_bonus/bonus_news?parameter1=p1&parameter2=p2">Ссылка с двумя параметрами в URL</a></li>
+                <li>
+                    Список ссылок основной навигации сайта с подписями title
+                    <ul>
+                        <li><a href="#head1" title="Маркированный список гиперссылок">Маркированный список гиперссылок</a></li>
+                        <li><a href="#head2" title="Форма">Форма</a></li>
+                    </ul>
+                </li>
+                <li><a>Ссылка без href</a></li>
+                <li><a href="">Ссылка с пустым href</a></li>
+                <li><a href="http://aeroflot.ru" rel="nofollow">Ссылка, по которой запрещен переход поисковикам</a></li>
+                <li><a href="http://aeroflot.ru" rel="nofollow"><!--noindex-->Ссылка, запрещенная для индексации поисковиками<!--/noindex--></a></li>
+                <li><p>Контекстная <a href="http://aeroflot.ru">ссылка</a> в тексте абзаца</p></li>
+                <li>
+                    Ссылка-изображение<br/>
+                    <a href="http://aeroflot.ru"><img src="https://funik.ru/wp-content/uploads/2018/12/50e6fff49d6f16dcd929.jpg" width="310" height="190" alt="Описание картинки"></a>
+                </li>
+                <li>
+                    Ссылки из прямоугольных и круглых областей картинки<br/>
+                    <img src="https://victoria4you.ru/upload/image/2021/05/b3d18cc48210c8adc3948d0f8fa23a8d.jpg" width="320" height="256" alt="Описание картинки" usemap="#myairline">
+                    <map name="myairline">
+                       <area shape="rect" coords="40,25,90,150" href="https://jetmagazine.ru/" alt="Прямоугольная область">
+                       <area shape="circle" coords="100,210,25" href="https://topwar.ru/armament/aviation/" alt="Круглая область">
+                    </map>
+                </li>
+                <li><a href="page">Относительная ссылка на страницу в текущем каталоге</a></li>
+                <li><a href="./about/page">Относительная ссылка на страницу в каталоге about</a></li>
+                <li><a href="../page">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+                <li><a href="../../page">Относительная ссылка на страницу в каталоге двумя уровнями выше текущего</a></li>
+                <li><a href="/">Сокращенная ссылка на главную</a></li>
+                <li><a href="/pages/page">Сокращенная ссылка на внутреннюю</a></li>
+            <a id="top"></a>
+			 </ul>
+			
+			
+			  <div  id="tbl">
+        <h2 id="head3">Таблица</h2>
+        <table>
+        <tbody>
+          <tr>
+            <th>Колонка 1</th>
+            <th>Колонка 2</th>
+            <th>Колонка 3</th>
+          </tr>
+
+          <tr>
+            <td colspan="2">Ячейка 11</td>
+            <td>Ячейка 11</td>
+          </tr>
+
+          <tr class="tab">
+            <td colspan="2">Ячейка 22 </td>
+            <td>Ячейка 22 </td>
+          </tr>
+
+          <tr>
+            <td>Ячейка 33</td>
+            <td>Ячейка 33</td>
+            <td>Ячейка 33</td>
+          </tr>
+
+          <tr class="tab">
+            <td>Ячейка 44</td>
+            <td colspan="2">Ячейка 44</td>
+          </tr>
+
+          <tr>
+            <td>Ячейка 55</td>
+            <td>Ячейка 55</td>
+            <td>Ячейка 55</td>
+          </tr>
+
+     </tbody></table>
+     <br/>
+     <br/>
+  </div>
+    </div>
+
+
+<div id="forum">
+ 
+			 <h2 id="head2">Форма</h2>
+            <form action="http://example.com" method="POST">
+                <label>
+                    Имя:<br/>
+                    <input name="yourname">
+                </label><br/>
+				<label>
+                    Фамилия:<br/>
+                    <input family name="surname">
+                </label><br/>
+                <label>
+                    e-mail:<br/>
+                    <input name="e-mail"
+                    type="email"/>
+                </label><br/>
+                <label>
+                    Дата рождения:<br/>
+                    <input name="dateofbirth"
+                    type="date"/>
+                </label><br/>
+         
+                <label>
+                    Личные качества:<br/>
+                    <select name="p" multiple="multiple">
+                    <option value="immortality" selected="selected">ответсвенность</option>
+                    <option value="passingthroughwalls">пунктуальность</option>
+                    <option value="levitation">вежливость</option>
+					 <option value="levitation">стрессоустойчивость</option>
+                    </select>
+                </label><br/>
+				 Уровень знания английского:<br/>
+                <label>
+                    <input type="radio" name="radio-group-1" value="Beginner (A1)"/>
+                    Beginner (A1)
+                </label>
+                <label><br/>
+                    <input type="radio" name="radio-group-1" value="Elementary (A2)"/>
+                    Elementary (A2)
+                </label>
+                <label><br/>
+                    <input type="radio" name="radio-group-1" value="Уровень Intermediate (B1)"/>
+                    Intermediate (B1)
+                </label>
+                <label><br/>
+                    <input type="radio" checked="checked" name="radio-group-1" value="Upper Intermediate (B2)"/>
+                    Upper Intermediate (B2)
+                </label>
+                <label><br/>
+                    <input type="radio" name="radio-group-1" value="Advanced (C1)"/>
+                    Advanced (C1)
+					<label><br/>
+                    <input type="radio" name="radio-group-1" value="Proficiency (C2)"/>
+                    Proficiency (C2)
+                </label><br/>
+                <label>
+                    Назовите ваши сильные стороны:<br/>
+                    <textarea name="bio">...</textarea>
+                </label><br/>
+                С контрактом ознакомлен(а):<br/>
+                <label>
+                    <input type="checkbox" checked="checked" name="check-1"/>
+                </label><br/>
+                <input type="submit" value="Отправить"/>
+            </form>
+			  </div>
+
+       <a id="site"></a>
+
+         </div>
+
+       <div class="ifooter">
+         <br/>
+    			 			<p>© Илья Федосеев 2021</p>
+    		 </div>
+
+    <div id="mayak">
+    </div>
+    </body>
+</html>
